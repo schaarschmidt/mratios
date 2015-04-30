@@ -47,7 +47,6 @@ And some further elements to be passed to print and summary functions.
 
 \emph{Djira G.D.(2010)}: Relative Potency Estimation in Parallel-Line Assays - Method Comparison and Some Extensions. Communications in Statistics - Theory and Methods 39(7), 1180-1189.
 
-\emph
 
 However, when \code{adjusted=TRUE}, the quantiles are not obtained as described in Zerbe(1978) or Young et al. (1997), but by adapting the 'plug-in' method described for the completely randomized one-way layout in 
 

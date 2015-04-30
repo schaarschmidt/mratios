@@ -115,10 +115,10 @@ boxplot(MN~Treatment, data=Mutagenicity)
 # Proof of Hazard, using multiplicity adjusted 
 # confidence intervals:
 
+\dontrun{
+
 sci.ratioVH(MN~Treatment, data=Mutagenicity,
  type="Dunnett", base=6, method="Plug")
-
-\dontrun{
 
 # Unadjusted confidence intervals for an 
 # intersection union test to proof safety

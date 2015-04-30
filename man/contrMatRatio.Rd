@@ -9,7 +9,9 @@
  Whether the given definitions of contrast matrices for trend test problems in terms of ratios make sense and how they are to be interpreted is to be discussed.
 }
 \usage{
-contrMatRatio(n, type = "Tukey", base = 1)
+contrMatRatio(n, type = c("Tukey", "Dunnett", "Sequen", "AVE",
+                 "GrandMean", "Changepoint", "Marcus", "McDermott",
+                 "Williams", "UmbrellaWilliams"), base = 1)
 }
 
 \arguments{
