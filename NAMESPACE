@@ -1,0 +1,15 @@
+export(contrMatRatio, n.ratio,
+ sci.ratio, sci.ratio.gen, sci.ratioVH,
+ simtest.ratio, simtest.ratioVH,
+ gsci.ratio,
+ t.test.ratio, t.test.ratio.formula, t.test.ratio.default)
+
+import(graphics, mvtnorm)
+
+S3method(plot, sci.ratio)
+
+S3method(print, sci.ratio)
+S3method(summary, sci.ratio)
+
+S3method(print, simtest.ratio)
+S3method(summary, simtest.ratio)
